@@ -1,10 +1,15 @@
-# spring-jpa-basics
-Java Spring boot project using Spring JPA module with basic setup.
+![](https://img.shields.io/badge/Spring%20boot-2.2.7-green)
+![](https://img.shields.io/badge/Junit-5-green)
+![](https://img.shields.io/badge/PostgreSQL-9.6-green)
+
+
+# Spring Data basics
+Java Spring boot project using Spring Data JPA module with basic setup.
 
 
 To fully run this application you'll first need to build the docker image in which the postgreSQL database will be running.
 
-Go to Docker folder and inside exec the following command:
+Go to docker folder and inside exec the following command:
 
 ```docker build . --tag spring-jpa-test```
 
